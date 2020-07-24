@@ -7,6 +7,7 @@ module.exports = {
   organizationName: 'PNR-Foret-Orient', // Usually your GitHub org/user name.
   projectName: 'documentation', // Usually your repo name.
   themeConfig: {
+    sidebarCollapsible: false,
     navbar: {
       title: 'Documentation PnrFO',
       logo: {
@@ -38,7 +39,7 @@ module.exports = {
       {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: 'configuration',
+          homePageId: 'serveurConfiguration',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:

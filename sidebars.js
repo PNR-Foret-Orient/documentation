@@ -1,5 +1,7 @@
 module.exports = {
-  someSidebar: {
-    GeoNature: ['configuration',],
+  sidebar: {
+    Serveur: [
+      'serveurConfiguration',
+    ],
   },
 };
