@@ -3,6 +3,8 @@ title: Configuration
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+GeoNature a été installé sur l'infrastructure du parc pour assurer une bonne performance compte tenu de la vitesse du réseau de l'Internet au parc. 
+
 ## Où se trouve GeoNature ?
 
 GeoNature est sur le serveur SIG du parc. Le système AYLAN a un pare-feu qui est configuré d'envoyer les requêtes HTTP et HTTPS vers le serveur SIG (192.168.3.134).
