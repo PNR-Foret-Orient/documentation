@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{107:function(e){e.exports=JSON.parse('{"docsSidebars":{"someSidebar":[{"collapsed":true,"type":"category","label":"GeoNature","items":[{"type":"link","label":"Configuration","href":"/documentation/docs/"}]}]},"permalinkToSidebar":{"/documentation/docs/":"someSidebar"}}')}}]);
