@@ -5,7 +5,7 @@ sidebar_label: Aperçu
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 :::note
-Status : en cours de configuration (2020-06-24)
+Status : en cours de configuration (2020-07-24)
 :::
 
 ## Qu'est-ce que c'est GeoNature ?
