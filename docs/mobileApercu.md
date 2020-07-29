@@ -8,7 +8,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 Status : en cours de configuration (2020-07-24)
 :::
 
-Certaines fonctionnalités de GeoNature sont disponible sur des terminals mobiles Android grâce aux applications `Occtax` et `Sync`. Ces applications ne sont pas disponibles sur Google Play donc ils doivent être installées manuellement. NB: L'application `Occtax` a besoin de l'application `Sync` pour fonctionner.
+Certaines fonctionnalités de GeoNature sont disponibles sur les terminals mobiles Android grâce aux applications `Occtax` et `Sync`. Ces applications ne sont pas sur Google Play donc elles doivent être installées manuellement. NB: L'application `Occtax` a besoin de l'application `Sync` pour fonctionner.
 
 ## Installation
 
@@ -17,7 +17,7 @@ Ce guide suppose que vous savez comment fonctionne le terminal et que vous pouve
 :::
 
 :::caution
-Il faut installer l'utilitaire `ADB` (Android Debug Bridge) avant de continuer. Sous Linux vous pouvez peut-être utilise `sudo apt install android-tools-adb` pour le faire.
+Il faut installer l'utilitaire `ADB` (Android Debug Bridge) avant de continuer. Sous Linux vous pouvez peut-être utiliser `sudo apt install android-tools-adb` pour le faire.
 
 De plus, vous devez activer le *Débogage USB* dans les options développeur de votre terminal mobile.
 :::
@@ -32,7 +32,7 @@ Brancher le terminal mobile que vous voulez utiliser. Vous pouvez vérifier qu'i
 adb install ./sync-1.0.0-generic.release.apk
 adb install ./occtax-1.0.0-generic-release.apk
 ```
-Si les commandes ont réussi, vous devriez voir les applications sur le terminal mobile :
+Si les commandes réussissent, vous devriez voir les applications sur le terminal mobile :
 
 <img alt="Capture d'écran après l'installation" src={useBaseUrl('img/docs/mobileScreenshot1.png')} className="mobile" />
 
