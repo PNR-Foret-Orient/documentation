@@ -29,7 +29,7 @@ Télécharger le fichier `.apk` le plus récent pour chaque appli. Il n'existe p
 
 Brancher le terminal mobile que vous voulez utiliser. Vous pouvez vérifier qu'il est bien connecté en utilisant la commande  `adb devices`. Si tout va bien, vous pouvez installer les applications :
 ```bash
-adb install ./sync-1.0.0-generic.release.apk
+adb install ./sync-1.0.0-generic-release.apk
 adb install ./occtax-1.0.0-generic-release.apk
 ```
 Si les commandes réussissent, vous devriez voir les applications sur le terminal mobile :
@@ -52,6 +52,12 @@ Si vous disposez d'un compte utilisateur avec les droits nécessaires, l'applica
 <img alt="Capture d'écran de la synchronisation" src={useBaseUrl('img/docs/mobileScreenshot3.png')} className="mobile" />
 
 En supposant que la synchronisation se termine avec succès, votre terminal mobile est désormais prêt à l'emploi !
+
+## Dépannage
+
+Si l'application plante, vous pouvez peut-être trouver la raison avec le journal d'événements. Pour ce faire, branchez le terminal mobile et puis utilisez la commande `adb logcat | grep fr.geonature`.
+
+Ce journal d'événements peut vous donner une explication que vous pouvez ensuite partager avec les développeuses·eurs.
 
 ## Utilisation
 
