@@ -3,7 +3,7 @@ title: Configuration
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-GeoNature a été installé sur l'infrastructure du parc pour assurer une bonne performance compte tenu de la vitesse du réseau de l'Internet au parc. 
+GeoNature a été installé sur l'infrastructure du parc pour assurer une bonne performance compte tenu de la vitesse de l'Internet au parc. 
 
 ## Où se trouve GeoNature ?
 

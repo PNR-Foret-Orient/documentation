@@ -24,8 +24,8 @@ De plus, vous devez activer le *Débogage USB* dans les options développeur de 
 
 Télécharger le fichier `.apk` le plus récent pour chaque appli. Il n'existe pas une version spécifique au PnrFO donc il est conseillé d'utiliser le « *flavour* » `generic`.
 
-* `Occtax` : <https://github.com/PnX-SI/gn_mobile_occtax/releases>
 * `Sync` : <https://github.com/PnX-SI/gn_mobile_core/releases>
+* `Occtax` : <https://github.com/PnX-SI/gn_mobile_occtax/releases>
 
 Brancher le terminal mobile que vous voulez utiliser. Vous pouvez vérifier qu'il est bien connecté en utilisant la commande  `adb devices`. Si tout va bien, vous pouvez installer les applications :
 ```bash

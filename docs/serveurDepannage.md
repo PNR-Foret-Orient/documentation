@@ -4,7 +4,7 @@ title: Dépannage
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 :::info
-La documentation officielle est disponible : http://docs.geonature.fr/FAQ.html
+La documentation officielle est disponible : http://docs.geonature.fr/FAQ.html  
 Ce page ne vise pas à la remplacer, mais plutôt fournir des instructions supplémentaires.
 :::
 
