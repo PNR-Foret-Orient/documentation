@@ -1,8 +1,12 @@
 module.exports = {
   sidebar: {
+    Documentation: [
+      'accueil',
+    ],
     Serveur: [
       'serveurConfiguration',
       'serveurDepannage',
+      'serveurSauvegardes',
     ],
     GeoNature: [
       'geonatureApercu',

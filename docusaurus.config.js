@@ -14,13 +14,7 @@ module.exports = {
         alt: 'Logo du parc',
         src: 'img/logo.png',
       },
-      links: [
-        {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
-        },
+      items: [
         {
           href: 'https://github.com/PNR-Foret-Orient/documentation',
           label: 'GitHub',
@@ -38,8 +32,8 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: 'serveurConfiguration',
+          routeBasePath: '/', // Set this value to '/'.
+          homePageId: 'accueil',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
