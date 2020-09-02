@@ -17,6 +17,7 @@ module.exports = {
       'geonatureModuleOccHab',
       'geonatureModuleOccTax',
       'geonatureModuleValidation',
+      'geonatureDonneesGeospatiales',
     ],
     Atlas: [
       'atlasApercu',
