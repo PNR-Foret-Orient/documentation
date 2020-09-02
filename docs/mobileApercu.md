@@ -5,7 +5,7 @@ sidebar_label: Aperçu
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 :::note
-Status : en cours de configuration (2020-07-24)
+Status : configuré (2020-08-28)
 :::
 
 Certaines fonctionnalités de GeoNature sont disponibles sur les terminals mobiles Android grâce aux applications `Occtax` et `Sync`. Ces applications ne sont pas sur Google Play donc elles doivent être installées manuellement. NB: L'application `Occtax` a besoin de l'application `Sync` pour fonctionner.
@@ -61,4 +61,27 @@ Ce journal d'événements peut vous donner une explication que vous pouvez ensui
 
 ## Utilisation
 
-(à faire)
+Heureusement, l'interface de l'application est assez intuitive. Voilà quelques captures d'écran pour illustrer comment l'application fonctionne :
+
+<img alt="1. Observateur et date" src={useBaseUrl('img/docs/mobileUtilisation1.png')} className="mobile" />
+<img alt="2. Pointage" src={useBaseUrl('img/docs/mobileUtilisation2.png')} className="mobile" />
+<img alt="3. Taxons" src={useBaseUrl('img/docs/mobileUtilisation3.png')} className="mobile" />
+<img alt="4. Informations" src={useBaseUrl('img/docs/mobileUtilisation4.png')} className="mobile" />
+<img alt="5. Dénombrement" src={useBaseUrl('img/docs/mobileUtilisation5.png')} className="mobile" />
+<img alt="6. Bilan de la saisie" src={useBaseUrl('img/docs/mobileUtilisation6.png')} className="mobile" />
+
+Pour en savoir plus, veuillez vous rendre sur [la documentation officielle](https://github.com/PnX-SI/gn_mobile_occtax/blob/master/docs/installation-fr.md#utilisation).
+
+## Fonds de carte
+
+Par défaut, l'application ne fournit pas les fonds de carte. Pour les ajouter, il faut les créer et puis les ajouter sur le terminal mobile vous-même. Les paramètres de l'application vous indiquent les chemins nécessaires de la mémoire interne et la carte externe (si disponible).
+
+Vous devez également préciser les fonds et les couches cartographiques (si besoin) dans les fichiers de configuration, qui se trouvent sur le serveur SIG.
+
+Pour en savoir plus, veuillez vous rendre sur [la documentation officielle](https://github.com/PnX-SI/gn_mobile_occtax/blob/master/docs/installation-fr.md#installer-et-configurer-les-applications).
+
+### Mettre à jour la configuration
+
+Les fichiers de configuration se trouvent dans le dépôt : https://github.com/PNR-Foret-Orient/mobile-configuration
+
+Pour les mettre à jour, vous pouvez tout d'abord les modifier comme vous voulez, et ensuite les télécharger sur le serveur en utilisant la commande : `git pull` depuis le chemin indiqué dans le README.
