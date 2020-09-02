@@ -17,4 +17,4 @@ L'apparition des modifications peut prendre quelques minutes.
 
 ## À propos
 
-Cette documentation a été créée par [George Moon](https://github.com/georgemoon), un stagiaire du Parc naturel régional de la Forêt d'Orient. Le français n'est pas sa langue maternelle donc veuillez excuser les fautes d'orthographe inévitables.
+Cette documentation a été créée par [George Moon](https://github.com/georgemoon), un stagiaire du Parc naturel régional de la Forêt d'Orient. Le français n'est pas sa langue maternelle, veuillez donc excuser les fautes d'orthographe inévitables.
