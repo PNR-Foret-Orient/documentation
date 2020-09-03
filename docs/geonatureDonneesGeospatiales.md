@@ -39,3 +39,15 @@ ssh <adresse IP du serveur> -L 5432:localhost:5432
 La gestion de la BDD peut être effectuée par n'importe quel outil tant que ça fonctionne avec Postgres. Vous pouvez même utiliser QGIS directement pour voir et modifier les données.
 
 <img alt="QGIS ref_geo.l_areas" src={useBaseUrl('img/docs/geonatureDonneesGeospatiales4.png')} className="tablet" />
+
+## Données
+
+Actuellement les données suivantes sont disponible dans la BDD :
+
+* Les communes du département de l'Aube [431]
+* Les départements de la France métropolitaine [96]
+* Mailles INPN
+  * 10*10 [9625]
+  * 5*5 [23060]
+  * 1*1 [593450]
+* Parc naturel régionaux [1]
