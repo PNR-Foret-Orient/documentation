@@ -12,7 +12,7 @@ Si vouz rencontrez des problèmes avec GeoNature ou ses applications associées,
 
 ## Comment déterminer la source du problème
 
-Chaque application (GeoNature, TaxHub, Atlas…) utilise un « frontend » (la partie d'application qu'on voit) et une « API » ou « backend » (la partie d'application qui fourni les données depuis la BDD).
+Chaque application (GeoNature, TaxHub, Atlas…) utilise un « frontend » (la partie d'application qu'on voit) et une « API » ou « backend » (la partie d'application qui fournit les données depuis la BDD).
 
 ### Le problème est peut-être lié à l'API si…
 
