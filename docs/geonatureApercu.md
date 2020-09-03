@@ -24,9 +24,9 @@ Pour utiliser [l'installation de GeoNature du PnrFO](https://biodiversite.pnr-fo
 La majorité des fonctions de GeoNature sont disponibles sous forme de modules. Voilà la liste des modules qui sont actuellement installés :
 
 * [Dashboard](geonatureModuleDashboard.md)
-* [Export](geonatureModuleExport.md)
-* [Import](geonatureModuleImport.md)
-* [Monitoring](geonatureModuleMonitoring.md)
-* [OccHab](geonatureModuleOccHab.md)
 * [OccTax](geonatureModuleOccTax.md)
+* [OccHab](geonatureModuleOccHab.md)
 * [Validation](geonatureModuleValidation.md)
+* [Import](geonatureModuleImport.md)
+* [Export](geonatureModuleExport.md)
+* [Monitoring](geonatureModuleMonitoring.md)
