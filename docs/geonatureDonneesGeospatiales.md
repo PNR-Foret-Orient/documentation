@@ -42,7 +42,7 @@ La gestion de la BDD peut être effectuée par n'importe quel outil tant que ça
 
 ## Données
 
-Actuellement les données suivantes sont disponible dans la BDD :
+Actuellement les données suivantes sont disponibles dans la BDD :
 
 * Les communes du département de l'Aube [431]
 * Les départements de la France métropolitaine [96]
