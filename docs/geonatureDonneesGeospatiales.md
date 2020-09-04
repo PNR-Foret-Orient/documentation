@@ -50,4 +50,4 @@ Actuellement les données suivantes sont disponibles dans la BDD :
   * 10*10 [9625]
   * 5*5 [23060]
   * 1*1 [593450]
-* Parc naturel régionaux [1]
+* Parcs naturels régionaux [1]
