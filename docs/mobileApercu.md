@@ -80,7 +80,7 @@ Vous devez également préciser les fonds et les couches cartographiques (si bes
 
 Pour en savoir plus, veuillez vous rendre sur [la documentation officielle](https://github.com/PnX-SI/gn_mobile_occtax/blob/master/docs/installation-fr.md#installer-et-configurer-les-applications).
 
-### Mettre à jour la configuration
+## Mettre à jour la configuration
 
 Les fichiers de configuration se trouvent dans le dépôt : https://github.com/PNR-Foret-Orient/mobile-configuration
 

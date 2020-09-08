@@ -10,12 +10,17 @@ Status : configuré et harmonisé (2020-09-08)
 
 ## Résumé
 
-GeoNature-Atlas et un atlas « Faune-Flore basé sur les données présentes dans la synthèse de GeoNature.
+GeoNature-Atlas et un atlas « Faune-Flore basé sur les données présentes dans la synthèse de GeoNature ». Il est destiné au grand public.
 
 <img alt="Capture d'écran de GeoNature-Atlas" src={useBaseUrl('img/docs/geonatureAtlas1.png')} className="tablet" />
 <img alt="Capture d'écran de GeoNature-Atlas" src={useBaseUrl('img/docs/geonatureAtlas2.png')} className="tablet" />
 
+## Paramètres de configuration
 
-TODO
-* Notice on redirect configured
-* Settings are in `atlas/atlas` not in Git because contains secrets
+Les paramètres se trouve dans le répertoire `/home/geonatureadmin/atlas/atlas/configuration`.
+
+Contrairement aux [fichiers de configuration de GeoNature Mobile](mobileApercu.md#mettre-à-jour-la-configuration), ces fichiers ne sont pas dans un dépôt de GitHub. Ceci est dû au fait que les fichiers contiennent des secrets qui ne peuvent pas être publics. En raison du pare-feu du réseau, de les avoir dans un dépôt privé n'est pas simple. Donc, ils doivent être modifiés sur place.
+
+## Redirection
+
+Le serveur est configuré de rediriger des utilisateur·rice·s vers l'Atlas (/atlas) depuis l'URL racine (/). Pour en savoir plus, allez à [Serveur: Configuration](serveurConfiguration.md#redirection).

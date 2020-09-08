@@ -3,7 +3,7 @@ title: Configuration
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-GeoNature a été installé sur l'infrastructure du parc pour assurer une bonne performance compte tenu de la vitesse de l'Internet au parc. 
+GeoNature a été installé sur l'infrastructure du parc pour assurer une bonne performance compte tenu de la vitesse de l'Internet au parc.
 
 ## Où se trouve GeoNature ?
 
@@ -20,3 +20,18 @@ Les sites sont disponible aux liens suivants :
 ## Gestion de HTTPS
 
 La certification HTTPS est grâce au service [Let's Encrypt](https://letsencrypt.org/fr/). Le logiciel `certbot` est responsable de la création et le renouvellement du certificat. Avec `cron` et `systemd/timers`, le renouvellement est automatique. En cas de problème, un mail sera envoyé à la personne responsable du SIG du parc.
+
+## Redirection
+
+Le serveur est configuré de rediriger les visiteur·euse·s à la racine du serveur (<https://biodiversite.pnr-foret-orient.fr/>) vers l'Atlas : (<https://biodiversite.pnr-foret-orient.fr/atlas/>).
+
+Si besoin, la redirection peut être modifiée ou supprimée.
+
+```markup title="/etc/apache2/sites-available/000-default-le-ssl.conf"
+RewriteEngine on
+RewriteRule ^/$ atlas/ [END,NE,R=permanent]
+```
+
+### Pourquoi une redirection au lieu d'installer l'Atlas directement à la racine ?
+
+Dans cette installation de GeoNature, tous les outils se trouvent sur un seul serveur et un seul nom de domaine. Si l'Atlas se trouve à la racine, ça peut interférer avec les autres outils et le système du renouvellement des certificats HTTPS.
