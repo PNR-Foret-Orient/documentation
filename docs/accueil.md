@@ -1,5 +1,6 @@
 ---
 title: Accueil
+slug: /
 ---
 Bienvenue sur la documentation de la configuration de GeoNature et d'autres services associés.
 

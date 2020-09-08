@@ -24,7 +24,7 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      copyright: `Syndicat mixte du parc naturel régional de la Forêt d'Orient, ${new Date().getFullYear()}`,
+      copyright: `Copyright © ${new Date().getFullYear()} Syndicat mixte du parc naturel régional de la Forêt d'Orient. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -33,7 +33,6 @@ module.exports = {
       {
         docs: {
           routeBasePath: '/', // Set this value to '/'.
-          homePageId: 'accueil',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
