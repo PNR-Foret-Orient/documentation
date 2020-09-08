@@ -17,10 +17,12 @@ module.exports = {
       'geonatureModuleValidation',
       'geonatureModuleImport',
       'geonatureModuleExport',
-      'geonatureModuleMonitoring',    
+      'geonatureModuleMonitoring',
     ],
     Atlas: [
       'atlasApercu',
+      'atlasContenu',
+      'atlasDonnees',
     ],
     Citizen: [
       'citizenApercu',
