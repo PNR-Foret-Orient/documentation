@@ -10,13 +10,9 @@ Cette page concerne les *données* de l'Atlas, c'est-à-dire les données natura
 
 *La carte de la page d'accueil*
 
-* Process for updating Atlas content
-  * (automatic, but it can be done manually)
-  * (different process for updating geospatial data)
-* Note on data dégradé
-* TaxHub for managing other images!
+## Mises à jour automatiques
 
-Crontab
+Cette installation de GeoNature-Atlas est configurée d'actualiser automatiquement les « vues materialisées » de la BDD, qui sont responsables des données naturalistes accessibles par l'Atlas. Ce processus déroule toutes les heures, grace au `crontab` :
 
 ```
 postgres@sig:~$ crontab -l
@@ -24,3 +20,22 @@ postgres@sig:~$ crontab -l
 # m h  dom mon dow   command
 0 * * * * psql -d geonatureatlas -c "SELECT atlas.refresh_materialized_view_data();"
 ```
+
+:::note
+Le processus automatique n'applique que les données naturalistes. Pour rafraichir les données géographiques vous devez le faire manuellement.
+:::
+
+## Lancer une mise à jour manuellement
+
+Pour mettre à jour l'atlas manuellement, vous devez vous connecter à la BDD puis lancer les commandes suivantes :
+
+```
+SELECT atlas.refresh_materialized_view_data(); -- actualiser les données naturalistes
+SELECT atlas.refresh_materialized_view_ref_geo(); -- actualiser les données géographiques
+```
+
+Pour en savoir plus, [lisez la documentation officielle](https://github.com/PnX-SI/GeoNature-atlas/blob/master/docs/vues_materialisees_maj.rst#mise-à-jour-des-vues-matérialisées)
+
+## Dégradation des données
+
+(à faire)

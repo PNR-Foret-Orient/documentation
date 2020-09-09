@@ -38,7 +38,7 @@ Les pages utilisent le framework « [Bootstrap 3](https://getbootstrap.com/docs/
 
 Si besoin, vous pouvez modifier le fichier CSS `custom.css` qui se trouve dans la racine du dépôt.
 
-### Ajouter des nouvelles pages
+### Ajouter une page
 
 Vous pouvez ajouter des pages statiques de présentation, en plus des pages fournies par défaut.
 
@@ -63,3 +63,7 @@ La carte a été générée par l'outil `qgis2web`. Pour la regénérez, utilise
 ```javascript title="templates/map/index.html"
 var layer_OSMStandard_0 = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png'…
 ```
+
+<img alt="Capture d'écran de l'outil qgis2web" src={useBaseUrl('img/docs/geonatureAtlas5.png')} className="tablet" />
+
+*Une capture d'écran de l'outil `qgis2web`.*
