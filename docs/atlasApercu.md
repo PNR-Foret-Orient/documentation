@@ -12,8 +12,13 @@ Status : configuré et harmonisé (2020-09-08)
 
 GeoNature-Atlas et un atlas « Faune-Flore basé sur les données présentes dans la synthèse de GeoNature ». Il est destiné au grand public.
 
-<img alt="Capture d'écran de GeoNature-Atlas" src={useBaseUrl('img/docs/geonatureAtlas1.png')} className="tablet" />
-<img alt="Capture d'écran de GeoNature-Atlas" src={useBaseUrl('img/docs/geonatureAtlas2.png')} className="tablet" />
+<img alt="Capture d'écran de l'Accueil GeoNature-Atlas" src={useBaseUrl('img/docs/geonatureAtlas1.png')} className="tablet" />
+
+*La page d'accueil*
+
+<img alt="Capture d'écran d'une commune sur GeoNature-Atlas" src={useBaseUrl('img/docs/geonatureAtlas2.png')} className="tablet" />
+
+*Exemple d'une page d'une commune*
 
 ## Paramètres de configuration
 
