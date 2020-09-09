@@ -48,7 +48,7 @@ Pour cela, il faut d'abord créer les pages dans le dépôt et les télécharger
 
 Vous pouvez ajouter des images au dépôt dans le dossier `images/`. Ensuite, vous pouvez employer une balise Jinja pour les utiliser, ex. `{{url_for('static', filename='custom/images/placeholder.jpg') }}`.
 
-:::note
+:::caution
 Vous devez redimensionner toutes les images avant des les télécharger sur le serveur. Sinon, ça peut créer des problèmes de vitesse pour les visiteur·euse·s de l'Atlas.
 :::
 
