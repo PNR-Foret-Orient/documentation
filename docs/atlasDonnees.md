@@ -13,12 +13,17 @@ Cette page concerne les *données* de l'Atlas, c'est-à-dire les données natura
 ## Quelles sont les données visibles sur l'Atlas ?
 
 Pour info, l'Atlas :
-* filtre les données non-diffusable (avec le code « 4 »)
-* inclut seulement les données « présentes » (avec le code « Pr »)
+* filtre les données non-diffusable (avec le code « 4 ») - [voir le code](https://github.com/PnX-SI/GeoNature-atlas/blob/3e595c81db9e0490cf4367b024cc97defd3a9668/data/gn2/atlas_synthese.sql#L35)
+* inclut seulement les données « présentes » (avec le code « Pr ») - [voir le code](https://github.com/PnX-SI/GeoNature-atlas/blob/3e595c81db9e0490cf4367b024cc97defd3a9668/data/gn2/atlas_synthese.sql#L36)
+* inclut seulement les données dans le territoire du parc - [voir le code](https://github.com/PnX-SI/GeoNature-atlas/blob/3e595c81db9e0490cf4367b024cc97defd3a9668/data/atlas.sql#L33)
+
+:::info
+Le « territoire » correspond aux données qui se trouvent dans la table `ref_geo.l_areas` de `geonature2db` avec le type « (15) Parcs naturels régionaux ». Si vous voulez mettre à jour le périmètre (ex. l’élargissement du parc), vous devez modifier les données géospatiales dans cette table puis [actualiser les vues materialisées](#lancer-une-mise-à-jour-manuellement).
+:::
 
 ## Dégradation des données
 
-> GeoNature-atlas fournit un mécanisme de dégration des données basé sur les standards du SINP. Connecté à GeoNature version 2, l'atlas utilise le champs `id_nomenclature_diffusion_level` de la table `gn_synthese.synthese` pour construire la vue atlas.vm_observations et remplir la géometrie adaptée en se basant sur référentiel géographique de GeoNature. Pour des raisons de performance et de lisibilité, GeoNature-atlas affiche le centroïde de la géometrie à laquelle l'observation est dégradée.
+Selon la documentation officielle, « GeoNature-atlas fournit un mécanisme de dégration des données basé sur les standards du SINP. Connecté à GeoNature version 2, l'atlas utilise le champs `id_nomenclature_diffusion_level` de la table `gn_synthese.synthese` pour construire la vue atlas.vm_observations et remplir la géometrie adaptée en se basant sur référentiel géographique de GeoNature. Pour des raisons de performance et de lisibilité, GeoNature-atlas affiche le centroïde de la géometrie à laquelle l'observation est dégradée. »
 
 À partir des données bruts présentes dans GeoNature, l'atlas applique le floutage suivant :
 
@@ -31,7 +36,7 @@ Niveau | Visible? | Description
 4 | Non | Aucune diffusion (cas exceptionnel), correspond à une donnée de sensibilité 4
 5 | Oui | Diffusion telle quelle : si une donnée précise existe, elle doit être diffusée telle quelle (non dégradée)
 
-:::info
+:::caution
 Les données au niveau 3 ne sont pas visibles parce que le centroïde du département ne se trouve pas sur le territoire du parc.
 :::
 
