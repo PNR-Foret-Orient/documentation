@@ -30,6 +30,7 @@ module.exports = {
     ],
     Mobile: [
       'mobileApercu',
+      'mobileCarte',
     ],
     Partenaires: [
       'partenairesLPO',

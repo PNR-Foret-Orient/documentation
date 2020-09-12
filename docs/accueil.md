@@ -6,7 +6,7 @@ Bienvenue sur la documentation de la configuration de GeoNature et d'autres serv
 
 ## Comment ça marche la documentation ?
 
-La documentation utilise [Docusaurus v2](https://v2.docusaurus.io) et [GitHub Pages](https://pages.github.com).
+La documentation utilise [Docusaurus v2](https://v2.docusaurus.io) et [GitHub Pages](https://pages.github.com). Docusaurus emploie le langage Markdown, spécifiquement « [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/) ».
 
 Pour la modifier vous devez disposer un compte utilisateur sur GitHub. GitHub a été configuré à mettre à jour la documentation [automatiquement](https://github.com/PNR-Foret-Orient/documentation/actions) après vous avez fait des changements.
 

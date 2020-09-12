@@ -72,14 +72,6 @@ Heureusement, l'interface de l'application est assez intuitive. Voilà quelques 
 
 Pour en savoir plus, veuillez vous rendre sur [la documentation officielle](https://github.com/PnX-SI/gn_mobile_occtax/blob/master/docs/installation-fr.md#utilisation).
 
-## Fonds de carte
-
-Par défaut, l'application ne fournit pas les fonds de carte. Pour les ajouter, il faut les créer et puis les ajouter sur le terminal mobile vous-même. Les paramètres de l'application vous indiquent les chemins nécessaires de la mémoire interne et la carte externe (si disponible).
-
-Vous devez également préciser les fonds et les couches cartographiques (si besoin) dans les fichiers de configuration, qui se trouvent sur le serveur SIG.
-
-Pour en savoir plus, veuillez vous rendre sur [la documentation officielle](https://github.com/PnX-SI/gn_mobile_occtax/blob/master/docs/installation-fr.md#installer-et-configurer-les-applications).
-
 ## Mettre à jour la configuration
 
 Les fichiers de configuration se trouvent dans le dépôt : https://github.com/PNR-Foret-Orient/mobile-configuration
