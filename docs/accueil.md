@@ -16,6 +16,10 @@ S'il y a un problème vous pouvez également cloner le dépôt <https://github.c
 L'apparition des modifications peut prendre quelques minutes.
 :::
 
+## Code
+
+Pour info, tous les dépôts mentionnées dans la documentation se trouvent sur GitHub : <https://github.com/pnr-foret-orient>
+
 ## À propos
 
 Cette documentation a été créée par [George Moon](https://github.com/georgemoon), un stagiaire du Parc naturel régional de la Forêt d'Orient. Le français n'est pas sa langue maternelle, veuillez donc excuser les fautes d'orthographe inévitables.
