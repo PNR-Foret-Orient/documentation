@@ -12,7 +12,7 @@ Si vouz rencontrez des problèmes avec GeoNature ou ses applications associées,
 
 ## Comment déterminer la source du problème
 
-Chaque application (GeoNature, TaxHub, Atlas…) utilise un « frontend » (la partie d'application qu'on voit) et une « API » ou « backend » (la partie d'application qui fournit les données depuis la BDD).
+Chaque application (GeoNature, TaxHub, Atlas…) utilise un « frontend » (la partie d'application qu'on voit) et une « API » ou « backend » (la partie cachée de l'application qui fournit les données depuis la BDD).
 
 ### Le problème est peut-être lié à l'API si…
 
@@ -23,7 +23,7 @@ Chaque application (GeoNature, TaxHub, Atlas…) utilise un « frontend » (la p
 
 ### Le problème est peut-être lié au frontend si…
 
-Vous voyez les erreurs comme les captures d'écran ci-dessous :
+Vous voyez les erreurs ci-dessous :
 
 <img alt="Capture d'écran de GeoNature avec un problème lié à la service apache2" src={useBaseUrl('img/docs/depannageApache1.png')} />
 
@@ -44,7 +44,7 @@ usershub2                        RUNNING   pid 14168, uptime 0:42:17
 supervisor>
 ```
 
-S'il y a un problème, vous verrez des résultats un peu comme celui-ci :
+S'il y a un problème, vous verrez des résultats différents comme celui-ci :
 
 ```bash
 geonatureadmin@sig:~$ sudo supervisorctl
@@ -95,7 +95,7 @@ Et vous pouvez démarrer et redémarrer les services avec les commandes `supervi
 
 ## Problèmes liés au frontend
 
-Il y a beaucoup de raisons pour lesquelles le frontend peut ne pas fonctionner. Il est conseillé de bien vérifier les éléments suivants :
+Il y existe plusieurs raisons pour lesquelles le frontend ne fonctionne pas. Il est conseillé de bien vérifier les éléments suivants :
 
 * Le routeur et le pare-feu du réseau du serveur
 * La configuration du logiciel `apache2`
