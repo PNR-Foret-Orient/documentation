@@ -4,7 +4,7 @@ title: LPO
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 :::note
-Status : en attendant d'une réponse de la LPO AuRA. (2020-07-24)
+Status : en attendant des discussions avec la LPO (2020-08-19).
 :::
 
 Le PnrFO est un partenaire de la [LPO Champagne-Ardenne](http://champagne-ardenne.lpo.fr) (LPO CA).
