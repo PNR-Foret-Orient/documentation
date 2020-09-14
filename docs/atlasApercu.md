@@ -4,10 +4,6 @@ sidebar_label: Aperçu
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-:::note
-Status : configuré et harmonisé (2020-09-08)
-:::
-
 ## Résumé
 
 GeoNature-Atlas et un atlas « Faune-Flore basé sur les données présentes dans la synthèse de GeoNature ». Il est destiné au grand public.

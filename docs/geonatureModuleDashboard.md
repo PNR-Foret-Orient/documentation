@@ -3,10 +3,6 @@ title: Dashboard (module)
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-:::note
-Status : configuré (2020-09-03)
-:::
-
 ## Résumé
 
 Le module Dashboard fournit « un tableau de bord contenant plusieurs graphiques et cartes basés sur les données présentes dans la synthèse de GeoNature ».

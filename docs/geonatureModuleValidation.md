@@ -3,10 +3,6 @@ title: Validation (module)
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-:::note
-Status : configuré (2020-09-10)
-:::
-
 ## Résumé
 
 Le module Validation est dédié à la validation des données, bien évidemment. Le module a une interface similaire de celle d'autres : on peut utiliser des filtres pour trouver les donnés qui nous intéressent.
