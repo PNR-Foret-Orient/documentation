@@ -17,7 +17,7 @@ Status : en cours de configuration (2020-07-24)
 ## Manuel utilisateur
 
 Le manuel utilisateur officiel est disponible ici : <http://docs.geonature.fr/user-manual.html>  
-Pour utiliser [l'installation de GeoNature du PnrFO](https://biodiversite.pnr-foret-orient.fr/geonature/), il faut disposer d'un compte utilisateur.
+Pour consulter [l'application GeoNature du PnrFO](https://biodiversite.pnr-foret-orient.fr/geonature/), il faut disposer d'un compte utilisateur.
 
 ## Modules
 
