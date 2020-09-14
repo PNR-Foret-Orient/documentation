@@ -4,7 +4,7 @@ sidebar_label: Données
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Cette page concerne les *données* de l'Atlas, c'est-à-dire les données naturalistes qui viennent de GeoNature. Pour vous renseigner sur les images et le texte des pages sur l'Atlas, merci de vous rendre sur la page [Contenu de l'Atlas](atlasContenu.md).
+Cette page concerne les *données* de l'Atlas, c'est-à-dire les données naturalistes qui proviennent de la BDD mère GeoNature. Pour vous renseigner sur les images et le texte des pages sur l'Atlas, merci de vous rendre sur la page [Contenu de l'Atlas](atlasContenu.md).
 
 <img alt="Capture d'écran de la présentation de GeoNature-Atlas" src={useBaseUrl('img/docs/geonatureAtlas4.png')} className="tablet" />
 
@@ -36,15 +36,15 @@ Niveau | Visible? | Description
 4 | Non | Aucune diffusion (cas exceptionnel), correspond à une donnée de sensibilité 4
 5 | Oui | Diffusion telle quelle : si une donnée précise existe, elle doit être diffusée telle quelle (non dégradée)
 
-:::caution
-Les données au niveau 3 ne sont pas visibles parce que le centroïde du département ne se trouve pas sur le territoire du parc.
+:::ATTENTION
+Les données au niveau 3 ne seront pas visibles car le centroïde du département ne se trouve pas sur le territoire du parc.
 :::
 
 Pour en savoir plus, lisez la [documentation officielle](https://github.com/PnX-SI/GeoNature-atlas/blob/master/docs/degradation_donnees.rst).
 
 ## Mises à jour automatiques
 
-Cette installation de GeoNature-Atlas est configurée d'actualiser automatiquement les « vues materialisées » de la BDD, qui sont responsables des données naturalistes accessibles par l'Atlas. Ce processus déroule toutes les heures, grace au `crontab` :
+Cette congiruation de GeoNature-Atlas permet d'actualiser automatiquement les « vues materialisées » de la BDD mère. La mise à jours se fait toutes les heures, grace au `crontab` :
 
 ```
 postgres@sig:~$ crontab -l
