@@ -58,7 +58,7 @@ Pour les images des espèces, vous devez les ajouter à TaxHub directement.
 
 Il existe une page « Carte » avec une carte du parc reprenant les contours administratifs et les zones écologiques sensibles. Cette carte est statique, c'est-à-dire qu'elle est indépendante de GeoNature.
 
-La carte a été générée par l'outil `qgis2web`. Pour la modifier, utiliser cet outil et mettre le nouveau fichier dans le dossier `templates/map/`. Si vous utilisez une couche d'OpenStreetMap, vous pourriez besoin de modifier le fichier `index.html` pour que les tuiles sont téléchargés par HTTPS plutôt que HTTP :
+La carte a été générée par l'outil `qgis2web`. Pour la modifier, utiliser cet outil et mettre le nouveau fichier dans le dossier `templates/map/`. Si vous utilisez une couche d'OpenStreetMap, vous pourriez besoin de modifier le fichier `index.html` pour que les tuiles soient téléchargées via HTTPS plutôt que HTTP :
 
 ```javascript title="templates/map/index.html"
 var layer_OSMStandard_0 = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png'…
