@@ -8,7 +8,7 @@ GeoNature fournit quelques modules par défaut : Synthèse, OccTax et OccHab. Po
 
 ## Sythèse
 
-De <http://docs.geonature.fr/user-manual.html#synthese> :
+<http://docs.geonature.fr/user-manual.html#synthese> :
 
 > Ce module permet de consulter, rechercher et exporter les données provenant des différentes sources et protocoles avec leur tronc commun, basé sur le standard Occurrences de taxon du SINP
 
@@ -16,7 +16,7 @@ De <http://docs.geonature.fr/user-manual.html#synthese> :
 
 ## OccTax
 
-De <http://docs.geonature.fr/user-manual.html#occtax> :
+<http://docs.geonature.fr/user-manual.html#occtax> :
 
 > Ce module permet de saisir des données selon le standard Occurrence de taxon du SINP
 
