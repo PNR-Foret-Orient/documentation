@@ -12,9 +12,8 @@ module.exports = {
     GeoNature: [
       'geonatureApercu',
       'geonatureDonneesGeospatiales',
+      'geonatureModulesBase',
       'geonatureModuleDashboard',
-      'geonatureModuleOccTax',
-      'geonatureModuleOccHab',
       'geonatureModuleValidation',
       'geonatureModuleImport',
       'geonatureModuleExport',

@@ -7,7 +7,7 @@ module.exports = {
   organizationName: 'PNR-Foret-Orient', // Usually your GitHub org/user name.
   projectName: 'documentation', // Usually your repo name.
   themeConfig: {
-    sidebarCollapsible: false,
+    sidebarCollapsible: true,
     navbar: {
       title: 'Documentation PnrFO',
       logo: {
