@@ -36,7 +36,7 @@ Niveau | Visible? | Description
 4 | Non | Aucune diffusion (cas exceptionnel), correspond à une donnée de sensibilité 4
 5 | Oui | Diffusion telle quelle : si une donnée précise existe, elle doit être diffusée telle quelle (non dégradée)
 
-:::ATTENTION
+:::caution
 Les données au niveau 3 ne seront pas visibles car le centroïde du département ne se trouve pas sur le territoire du parc.
 :::
 
@@ -44,7 +44,7 @@ Pour en savoir plus, lisez la [documentation officielle](https://github.com/PnX-
 
 ## Mises à jour automatiques
 
-Cette congiruation de GeoNature-Atlas permet d'actualiser automatiquement les « vues materialisées » de la BDD mère. La mise à jours se fait toutes les heures, grace au `crontab` :
+Cette configuration de GeoNature-Atlas permet d'actualiser automatiquement les « vues materialisées » de la BDD mère. La mise à jour se fait toutes les heures, grace au `crontab` :
 
 ```
 postgres@sig:~$ crontab -l

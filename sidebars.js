@@ -2,7 +2,7 @@ module.exports = {
   sidebar: {
     Documentation: [
       'accueil',
-      'enregistrements',
+      'captures',
     ],
     Serveur: [
       'serveurConfiguration',

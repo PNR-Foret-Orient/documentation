@@ -22,4 +22,4 @@ Pour info, tous les dépôts mentionnés dans la documentation se trouvent sur G
 
 ## À propos
 
-Cette documentation a été créée par [George Moon](https://github.com/georgemoon), en charge du developpement de l'Observatoire de la biodiversité du Parc naturel régional de la Forêt d'Orient. Le français n'est pas sa langue maternelle, veuillez donc excuser les quelques coquilles.
+Cette documentation a été créée par [George Moon](https://github.com/georgemoon), en charge du développement de l'Observatoire de la biodiversité du Parc naturel régional de la Forêt d'Orient. Le français n'est pas sa langue maternelle, veuillez donc excuser les quelques coquilles.

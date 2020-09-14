@@ -30,7 +30,7 @@ sudo su postgres
 pg_dump -Fc geonature2db  > <chemin_de_sauvegarde>
 ```
 
-:::ATTENTION
+:::caution
 La BDD de l'Atlas `geonatureatlas` est differente de GeoNature, elle n'est donc pas incluse dans une sauvegarde de la BDD `geonature2db`. En théorie ce n'est pas un problème parce que les vues de l'Atlas (BDD fille) sont créées à paritr de la BDD mére `geonature2db`. En cas de problème vous pouvez les régénérer.
 :::
 

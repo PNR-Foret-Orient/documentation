@@ -20,7 +20,7 @@ GeoNature-Atlas est un atlas « Faune-Flore basé sur les données présentes da
 
 Les paramètres se trouvent dans le répertoire `/home/geonatureadmin/atlas/atlas/configuration`.
 
-Contrairement aux [fichiers de configuration de GeoNature Mobile](mobileApercu.md#mettre-à-jour-la-configuration), ces fichiers ne sont pas dans un dépôt de GitHub. Ceci est dû au fait que les fichiers contiennent des informations qui ne doivent pas être publiques. En raison du pare-feu du réseau, ils sont dans un dépôt privé et doivent être modifiés sur place.
+Contrairement aux [fichiers de configuration de GeoNature Mobile](mobileApercu.md#mettre-à-jour-la-configuration), ces fichiers ne sont pas dans un dépôt de GitHub. Ceci est dû au fait que les fichiers contiennent des informations qui ne doivent pas être publiques. Le pare-feu du réseau empêche l'utilisation simple d'un dépôt privé donc les fichiers doivent être modifiés sur place.
 
 ## Redirection
 

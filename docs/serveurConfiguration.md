@@ -11,7 +11,7 @@ GeoNature est sur le serveur SIG du parc. Le système AYLAN a un pare-feu qui es
 
 <img alt="Diagramme du réseau" src={useBaseUrl('img/docs/reseau.png')} />
 
-Les applications web sont disponible suivant les liens suivants :
+Les applications web sont disponible suivant ces liens :
 * GeoNature <http://biodiversite.pnr-foret-orient.fr/geonature>
 * TaxHub <http://biodiversite.pnr-foret-orient.fr/taxhub/>
 * UsersHub <http://biodiversite.pnr-foret-orient.fr/usershub>

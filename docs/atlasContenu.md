@@ -42,13 +42,13 @@ Si besoin, vous pouvez modifier le fichier CSS `custom.css` qui se trouve dans l
 
 Vous pouvez ajouter des pages statiques de présentation, en plus des pages fournies par défaut.
 
-Pour cela, il faut d'abord créer les pages dans le dépôt et les télécharger sur le serveur. Vous devez ensuite modifier le paramètre STATIC_PAGES du fichier `/home/geonatureadmin/atlas/atlas/configuration.py`, puis redémarrer le service.
+Pour cela, il faut d'abord créer les pages dans le dépôt et les télécharger sur le serveur. Vous devez ensuite modifier le paramètre STATIC_PAGES du fichier `/home/geonatureadmin/atlas/atlas/configuration.py`, puis redémarrer le service `atlas`.
 
 ### Images
 
 Vous pouvez ajouter des images au dépôt dans le dossier `images/`. Ensuite, vous pouvez employer une balise Jinja pour les utiliser, ex. `{{url_for('static', filename='custom/images/placeholder.jpg') }}`.
 
-:::ATTENTION
+:::caution
 Vous devez redimensionner toutes les images avant des les télécharger sur le serveur. Sinon, des problèmes de lenteur peuvent apparaître pour les visiteur·euse·s de l'Atlas.
 :::
 
@@ -58,7 +58,7 @@ Pour les images des espèces, vous devez les ajouter à TaxHub directement.
 
 Il existe une page « Carte » avec une carte du parc reprenant les contours administratifs et les zones écologiques sensibles. Cette carte est statique, c'est-à-dire qu'elle est indépendante de GeoNature.
 
-La carte a été générée par l'outil `qgis2web`. Pour la modifier, utiliser cet outil et mettre le nouveau fichier dans le dossier `templates/map/`. Si vous utilisez une couche d'OpenStreetMap, vous pourriez besoin de modifier le fichier `index.html` pour que les tuiles soient téléchargées via HTTPS plutôt que HTTP :
+La carte a été générée par l'outil `qgis2web`. Pour la modifier, utiliser cet outil et mettre les nouveaux fichiers dans le dossier `templates/map/`. Si vous utilisez une couche d'OpenStreetMap, vous pourriez besoin de modifier le fichier `index.html` pour que les tuiles soient téléchargées via HTTPS plutôt que HTTP :
 
 ```javascript title="templates/map/index.html"
 var layer_OSMStandard_0 = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png'…

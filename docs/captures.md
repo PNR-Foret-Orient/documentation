@@ -3,9 +3,9 @@ title: Captures d'écran
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Il y a quelques captures d'écran faisant office de tutoriel dans un dossier sous Google Drive. Ils ont été crés pour mieux expliquer le fonctionnement de certains processus.
+Il y a quelques captures d'écran faisant office de tutoriel dans un dossier sous Google Drive. Ils ont été crées pour mieux expliquer le fonctionnement de certains processus.
 
-<img alt="Une capture d'écran de Google Drive" src={useBaseUrl('img/docs/enregistrements1.png')} className="tablet" />
+<img alt="Une capture d'écran de Google Drive" src={useBaseUrl('img/docs/captures1.png')} className="tablet" />
 
 ## Enregistrements disponibles
 
