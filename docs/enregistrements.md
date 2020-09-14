@@ -1,9 +1,9 @@
 ---
-title: Enregistrements d'écran
+title: Captures d'écran
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Il y a quelques enregistrements d'écran disponibles dans un dossier de Google Drive. Ils ont été crées pour mieux expliquer le fonctionnement de certains processus.
+Il y a quelques cpatures d'écran disponibles dans un dossier sous Google Drive. Ils ont été crés pour mieux expliquer le fonctionnement de certains processus.
 
 <img alt="Une capture d'écran de Google Drive" src={useBaseUrl('img/docs/enregistrements1.png')} className="tablet" />
 
@@ -20,5 +20,5 @@ Il y a quelques enregistrements d'écran disponibles dans un dossier de Google D
   * Modifier la configuration
 
 :::note
-Vous devez disposer des droits d'accès à Google Drive pour les regarder.
+Vous devez disposer des droits d'accès à Google Drive.
 :::
