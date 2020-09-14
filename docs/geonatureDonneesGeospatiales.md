@@ -14,7 +14,7 @@ Les données géospatiales sont gérées directement dans la BDD `geonature2db` 
 * `ref_geo.li_grids` : Une table qui fournit plus d'informations sur les mailles (dit « grids »). La table est liée à `ref_geo.l_areas` par la clé `id_area`.
 * `ref_geo.li_municipalities` : Une table qui fournit plus d'informations sur les municipalitiés (dit « municipalities »). La table est liée à `ref_geo.l_areas` par la clé `id_area`.
 
-Voilà quelques exemples des tables :
+Quelques exemples des tables :
 
 <img alt="pgAdmin ref_geo.bib_areas_types" src={useBaseUrl('img/docs/geonatureDonneesGeospatiales1.png')} className="tablet" />
 
@@ -30,13 +30,13 @@ Voilà quelques exemples des tables :
 
 ## Comment gérer ces données ?
 
-Vous devez vous connecter directement à la BDD. Si besoin, vous pouvez créer un tunnel SSH pour accéder le port de la BDD (5432) :
+Vous devez vous connecter directement à la BDD. Si besoin, vous pouvez créer un tunnel SSH en renseignant le port de la BDD (5432) :
 
 ```
 ssh <adresse IP du serveur> -L 5432:localhost:5432
 ```
 
-La gestion de la BDD peut être effectuée par n'importe quel outil tant que ça fonctionne avec Postgres. Vous pouvez même utiliser QGIS directement pour voir et modifier les données.
+La gestion de la BDD peut être effectuée par n'importe quel outil tant qu'il fonctionne avec Postgres. Vous pouvez même utiliser QGIS directement pour visualiser et modifier les tables de données.
 
 <img alt="QGIS ref_geo.l_areas" src={useBaseUrl('img/docs/geonatureDonneesGeospatiales4.png')} className="tablet" />
 
