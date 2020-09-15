@@ -18,7 +18,7 @@ Pour info, l'Atlas :
 * inclut seulement les données dans le territoire du parc - [voir le code](https://github.com/PnX-SI/GeoNature-atlas/blob/3e595c81db9e0490cf4367b024cc97defd3a9668/data/atlas.sql#L33)
 
 :::info
-Le « territoire » correspond aux données qui se trouvent dans la table `ref_geo.l_areas` de `geonature2db` avec le type « (15) Parcs naturels régionaux ». Si vous voulez mettre à jour le périmètre (ex. l’élargissement du parc), vous devez modifier les données géospatiales dans cette table puis [actualiser les vues materialisées](#lancer-une-mise-à-jour-manuellement).
+Le « territoire » correspond aux données qui se trouvent dans la table `ref_geo.l_areas` de `geonature2db` avec le type « (15) Parcs naturels régionaux ». Si vous voulez mettre à jour le périmètre (ex. l’élargissement du Parc), vous devez modifier les données géospatiales dans cette table puis [actualiser les vues materialisées](#lancer-une-mise-à-jour-manuellement).
 :::
 
 ## Dégradation des données
@@ -37,7 +37,7 @@ Niveau | Visible? | Description
 5 | Oui | Diffusion telle quelle : si une donnée précise existe, elle doit être diffusée telle quelle (non dégradée)
 
 :::caution
-Les données au niveau 3 ne seront pas visibles car le centroïde du département ne se trouve pas sur le territoire du parc.
+Les données au niveau 3 ne seront pas visibles car le centroïde du département ne se trouve pas sur le territoire du Parc.
 :::
 
 Pour en savoir plus, lisez la [documentation officielle](https://github.com/PnX-SI/GeoNature-atlas/blob/master/docs/degradation_donnees.rst).
