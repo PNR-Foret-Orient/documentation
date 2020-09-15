@@ -12,7 +12,7 @@ Status : en cours de configuration (2020-07-24)
 
 « GeoNature est une application permettant de regrouper l'ensemble des données provenant des protocoles Faune et Flore, de saisir dans différents protocoles et de consulter l'ensemble de ces données dans une application de synthèse. »
 
-<img alt="Capture d'écran de GeoNature" src={useBaseUrl('img/docs/geonature.png')} />
+<img alt="Capture d'écran de GeoNature" src={useBaseUrl('img/docs/geonature.png')} className="tablet" />
 
 ## Manuel utilisateur
 

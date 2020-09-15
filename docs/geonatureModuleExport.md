@@ -41,6 +41,6 @@ Pour en savoir plus, lire [la documentation officielle](https://github.com/PnX-S
 
 *Exemple d'une vue `v_synthese_shp` dans DBeaver*
 
-<img alt="Capture d'écran XXXXX" src={useBaseUrl('img/docs/geonatureModuleExport4.png')} className="tablet" />
+<img alt="Capture d'écran d'un formulaire" src={useBaseUrl('img/docs/geonatureModuleExport4.png')} className="tablet" />
 
 *Le formulaire de création d'un export*

@@ -19,15 +19,15 @@ Chaque application (GeoNature, TaxHub, Atlas…) utilise un « frontend » (la p
 * vous n'arrivez pas à vous connecter même si vous disposez d'un compte utilisateur
 * GeoNature ne montre pas les données, comme l'illustre la capture d'écran suivante
 
-<img alt="Capture d'écran de GeoNature avec un problème lié à l'API" src={useBaseUrl('img/docs/depannageAPI.png')} />
+<img alt="Capture d'écran de GeoNature avec un problème lié à l'API" src={useBaseUrl('img/docs/depannageAPI.png')} className="tablet" />
 
 ### Le problème est peut-être lié au frontend si…
 
 Vous voyez les erreurs ci-dessous :
 
-<img alt="Capture d'écran de GeoNature avec un problème lié à la service apache2" src={useBaseUrl('img/docs/depannageApache1.png')} />
+<img alt="Capture d'écran de GeoNature avec un problème lié à la service apache2" src={useBaseUrl('img/docs/depannageApache1.png')} className="tablet" />
 
-<img alt="Capture d'écran de GeoNature avec un problème lié à la service apache2" src={useBaseUrl('img/docs/depannageApache2.png')} />
+<img alt="Capture d'écran de GeoNature avec un problème lié à la service apache2" src={useBaseUrl('img/docs/depannageApache2.png')} className="tablet" />
 
 ## Problèmes liés à l'API
 

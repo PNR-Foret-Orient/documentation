@@ -11,7 +11,7 @@ Le PnrFO est un partenaire de la [LPO Champagne-Ardenne](http://champagne-ardenn
 
 La LPO Champagne-Ardenne entretient « [un portail interactif](https://www.faune-champagne-ardenne.org)  consacré à la collecte et à la diffusion d’observations naturalistes en Champagne-Ardenne ». Comme des autres LPOs, le portail est basé sur le système « VisioNature ».
 
-<img alt="Capture d'écran de VisioNature" src={useBaseUrl('img/docs/visionature.png')} />
+<img alt="Capture d'écran de VisioNature" src={useBaseUrl('img/docs/visionature.png')} className="tablet" />
 
 On voudrait avoir les moyennes pour transférer des données naturalistes de VisioNature à GeoNature. Idéalement ce sera une passerelle technique automatique mais si ce n'est pas réalisable il suffira d'avoir un processus manuel pour le faire.
 
