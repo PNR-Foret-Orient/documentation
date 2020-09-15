@@ -4,12 +4,12 @@ sidebar_label: Aperçu
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Certaines fonctionnalités de GeoNature sont disponibles sur les terminals mobiles Android grâce aux applications `Occtax` et `Sync`. Ces applications ne sont pas sur Google Play donc elles doivent être installées manuellement. NB: L'application `Occtax` a besoin de l'application `Sync` pour fonctionner.
+Certaines fonctionnalités de GeoNature sont disponibles sur les mobiles Androïd grâce aux applications `Occtax` et `Sync`. Ces applications ne sont pas sur Google Play donc elles doivent être installées manuellement. NB: L'application `Occtax` a besoin de l'application `Sync` pour fonctionner.
 
 ## Installation
 
 :::info
-Ce guide suppose que vous savez comment fonctionne le terminal et que vous pouvez adapter les instructions pour vos besoins.
+Ce guide suppose que vous savez comment fonctionne le terminal Androïd et que vous pouvez adapter les instructions pour vos besoins.
 
 Il faut installer l'utilitaire `ADB` (Android Debug Bridge) avant de continuer. Sous Linux vous pouvez peut-être utiliser `sudo apt install android-tools-adb` pour le faire.
 
@@ -39,13 +39,13 @@ Afin d'utiliser les applications avec l'installation GeoNature du PnrFO, il faut
 
 <img alt="Capture d'écran des paramètres" src={useBaseUrl('img/docs/mobileScreenshot2.png')} className="mobile" />
 
-Après vous avez ajouté les deux URLs, appuyez sur la flèche de retour. Si tout va bien, après quelques instants l'application vous demandera de vous connecter.
+Après avoir ajouté les deux URLs, appuyez sur la flèche de retour. Si tout va bien, après quelques instants l'application vous demandera de vous connecter.
 
 Si vous disposez d'un compte utilisateur avec les droits nécessaires, l'application fera bientôt une synchronisation initiale.
 
 <img alt="Capture d'écran de la synchronisation" src={useBaseUrl('img/docs/mobileScreenshot3.png')} className="mobile" />
 
-En supposant que la synchronisation se termine avec succès, votre terminal mobile est désormais prêt à l'emploi !
+En supposant que la synchronisation se termine avec succès, la saisie mobile est désormais prêt à l'emploi !
 
 ## Dépannage
 
