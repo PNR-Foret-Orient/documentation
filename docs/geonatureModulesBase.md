@@ -6,7 +6,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 GeoNature fournit quelques modules par défaut : Synthèse, OccTax et OccHab. Pour en savoir plus, consulter [la documentation officielle](http://docs.geonature.fr/user-manual.html).
 
-## Sythèse
+## Synthèse
 
 <http://docs.geonature.fr/user-manual.html#synthese> :
 
