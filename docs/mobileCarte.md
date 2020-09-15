@@ -6,7 +6,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Fonds de carte
 
-Par défaut, l'application ne fournit pas les fonds de carte. Pour les ajouter, il faut les créer et puis les ajouter sur le terminal mobile vous-même. Les paramètres de l'application vous indiquent les chemins nécessaires de la mémoire interne et la carte externe (si disponible).
+Par défaut, l'application ne fournit pas les fonds de carte. Pour les ajouter, il faut les créer et les ajouter vous-même sur le terminal mobile. Les paramètres de l'application vous indiquent les chemins nécessaires de la mémoire interne et la carte externe (si disponible).
 
 Vous devez également préciser les fonds et les couches cartographiques (si besoin) dans les fichiers de configuration, qui se trouvent sur le serveur SIG.
 
@@ -24,7 +24,7 @@ Voilà une capture d'écran de l'outil :
 
 <img alt="QGIS « Generate XYZ Tiles » " src={useBaseUrl('img/docs/mobileCarte2.png')} className="tablet" />
 
-Il y a un enregistrement d'écran disponible dans Google Drive qui peut vous montre le fonctionnement de cet outil.
+Une capture d'écran disponible dans Google Drive vous montre le fonctionnement de cet outil.
 
 :::note
 Renseignez-vous de la configuration des applis mobiles pour assurer que vous avez créé un fichier MBTiles qui correspond aux niveaux de zoom minimum et maximum .
@@ -33,10 +33,10 @@ Renseignez-vous de la configuration des applis mobiles pour assurer que vous ave
 ## Installer un fond de carte
 
 :::note
-Il y a un enregistrement d'écran de ce processus dans Google Drive.
+Une capture d'écran de ce processus est dispo dans Google Drive.
 :::
 
-Tout d'abord vous devez faire les changements nécessaires dans le fichier `occtax/settings.json` qui se trouve sur [GitHub](https://github.com/PNR-Foret-Orient/mobile-configuration). En cette occasion, c'est probable que vous voulez ajouter ou modifier les couches (« layers ») :
+Tout d'abord vous devez faire les changements nécessaires dans le fichier `occtax/settings.json` qui se trouve sur [GitHub](https://github.com/PNR-Foret-Orient/mobile-configuration). Par la suite, il est possible que vous voulez ajouter ou modifier les couches (« layers ») :
 
 ```json title="occtax/settings.json"
   …
