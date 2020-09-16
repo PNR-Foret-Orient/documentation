@@ -9,11 +9,11 @@ Certaines fonctionnalités de GeoNature sont disponibles sur les mobiles Androï
 ## Installation
 
 :::info
-Ce guide suppose que vous savez comment fonctionne le terminal Androïd et que vous pouvez adapter les instructions pour vos besoins.
+Ce guide suppose que vous savez comment fonctionne le terminal sur votre ordinateur et que vous pouvez adapter les instructions pour vos besoins.
 
 Il faut installer l'utilitaire `ADB` (Android Debug Bridge) avant de continuer. Sous Linux vous pouvez peut-être utiliser `sudo apt install android-tools-adb` pour le faire.
 
-De plus, vous devez activer le *Débogage USB* dans les options développeur de votre terminal mobile.
+De plus, vous devez activer le *Débogage USB* dans les options développeur de votre mobile.
 :::
 
 Télécharger le fichier `.apk` le plus récent pour chaque appli. Il n'existe pas une version spécifique au PnrFO donc il est conseillé d'utiliser le « *flavour* » `generic`.
@@ -21,7 +21,7 @@ Télécharger le fichier `.apk` le plus récent pour chaque appli. Il n'existe p
 * `Sync` : <https://github.com/PnX-SI/gn_mobile_core/releases>
 * `Occtax` : <https://github.com/PnX-SI/gn_mobile_occtax/releases>
 
-Brancher le terminal mobile que vous voulez utiliser. Vous pouvez vérifier qu'il est bien connecté en utilisant la commande  `adb devices`. Si tout va bien, vous pouvez installer les applications :
+Brancher le mobile que vous voulez utiliser. Vous pouvez vérifier qu'il est bien connecté en utilisant la commande  `adb devices`. Si tout va bien, vous pouvez installer les applications :
 ```bash
 adb install ./sync-1.0.0-generic-release.apk
 adb install ./occtax-1.0.0-generic-release.apk

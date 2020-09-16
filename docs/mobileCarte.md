@@ -33,10 +33,10 @@ Renseignez-vous de la configuration des applis mobiles pour assurer que vous ave
 ## Installer un fond de carte
 
 :::note
-Une capture d'écran de ce processus est dispo dans Google Drive.
+Une capture d'écran de ce processus est disponible dans Google Drive.
 :::
 
-Tout d'abord vous devez faire les changements nécessaires dans le fichier `occtax/settings.json` qui se trouve sur [GitHub](https://github.com/PNR-Foret-Orient/mobile-configuration). Par la suite, il est possible que vous voulez ajouter ou modifier les couches (« layers ») :
+Tout d'abord vous devez faire les changements nécessaires dans le fichier `occtax/settings.json` qui se trouve sur [GitHub](https://github.com/PNR-Foret-Orient/mobile-configuration). Vous voudrez probablement ajouter ou modifier les couches (« layers ») :
 
 ```json title="occtax/settings.json"
   …

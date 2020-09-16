@@ -12,7 +12,7 @@ https://github.com/PnX-SI/gn_module_import/blob/master/README.rst :
 
 ## Configuration
 
-Les droits sur les « mappings » n'est pas attribuer par défaut. Dans cette installation de GeoNature, le groupe `admin` a été fournit avec les droits nécessaire. Si besoin, vous pouvez les changer dans le module « [Admin](https://biodiversite.pnr-foret-orient.fr/geonature/api/permissions_backoffice/users) » de GeoNature.
+Les droits sur les « mappings » n'est pas attribuer par défaut. Dans cette installation de GeoNature, le groupe `admin` a été fournit avec les droits nécessaires. Si besoin, vous pouvez les changer dans le module « [Admin](https://biodiversite.pnr-foret-orient.fr/geonature/api/permissions_backoffice/users) » de GeoNature.
 
 <img alt="Capture d'écran de l'interface Backoffice de GeoNature" src={useBaseUrl('img/docs/geonatureModuleImport1.png')} className="tablet border" />
 
