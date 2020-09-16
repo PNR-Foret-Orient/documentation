@@ -22,6 +22,10 @@ Les droits sur les « mappings » n'est pas attribuer par défaut. Dans cette in
 
 [La documentation officielle](https://github.com/PnX-SI/gn_module_import#utilisation-du-module-dimports) explique bien les étapes nécessaires.
 
+:::tip
+Si quelque chose ne fonctionne pas, ouvrez l'outil « Réseau » des outils de développement de votre navigateur. Il peut vous donner plus d'informations sur les erreurs.
+:::
+
 ## Captures d'écran
 
 Voilà quelques captures d'écran qui montrent le fonctionnement du module :

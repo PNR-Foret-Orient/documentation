@@ -16,7 +16,7 @@ GeoNature-Atlas fournit quelques fichiers HTML, CSS et JS qui peuvent être modi
 
 Pour les modifier, cloner le dépôt Git sur votre machine en local puis modifier les fichiers comme vous voulez. Ensuite, vous devez les déposer (« push ») sur GitHub.
 
-Pour effectuer vos changements sur l'Atlas, il faut d'abord vous connecter au serveur avec SSH en tant que « geonatureadmin ».
+Pour effectuer vos changements sur l'Atlas, il faut d'abord vous connecter au serveur avec SSH en tant que `geonatureadmin`.
 
 Ensuite, lancer les commandes suivantes depuis le chemin `/home/geonatureadmin/atlas/static/custom` :
 ```
