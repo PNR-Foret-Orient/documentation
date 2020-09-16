@@ -54,7 +54,7 @@ Vous devez redimensionner toutes les images avant des les télécharger sur le s
 
 Pour les images des espèces, vous devez les ajouter à TaxHub directement.
 
-## Map
+## Carte
 
 Il existe une page « Carte » avec une carte du parc reprenant les contours administratifs et les zones écologiques sensibles. Cette carte est statique, c'est-à-dire qu'elle est indépendante de GeoNature.
 
