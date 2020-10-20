@@ -102,3 +102,18 @@ Il y existe plusieurs raisons pour lesquelles le frontend ne fonctionne pas. Il 
 * La compilation du frontend
 * La configuration de `geonature` (ex. `tsconfig.json`)
 * L'état de la certification HTTPS
+
+:::info
+En cas d'opération de maintenance sur la base penser à activer la configuration du mode de maintenance :
+:::
+
+```bash sudo a2dissite geonature
+sudo a2ensite geonature_maintenance
+sudo apachectl restart
+```
+A la fin de l’opération de maintenance, effectuer la manipulation inverse :
+```bash
+sudo a2dissite geonature_maintenance
+sudo a2ensite geonature
+sudo apachectl restart
+```
