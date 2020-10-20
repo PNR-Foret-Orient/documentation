@@ -104,9 +104,17 @@ Il y existe plusieurs raisons pour lesquelles le frontend ne fonctionne pas. Il 
 * L'état de la certification HTTPS
 
 :::info
-En cas d'opération de maintenance sur la base penser à activer la configuration du mode de maintenance :
+En cas d'opération sur la base ou sur le frontend penser à activer la configuration du mode de maintenance !
 :::
 
+## Configuration de maintenance
+Pour utiliser la série de commandes de Geonature, il est nécessaire d’être dans le virtualenv python de GeoNature
+
+```bashcd <GEONATURE_DIRECTORY>/backend
+source venv/bin/activate
+```
+Le préfixe (venv) se met alors au début de votre invite de commande.
+Pour rendre l’application momentanémment indisponible, désactivez la configuration Apache de GeoNature, puis activez la configuration du mode de maintenance :
 ```bash sudo a2dissite geonature
 sudo a2ensite geonature_maintenance
 sudo apachectl restart
