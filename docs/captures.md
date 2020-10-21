@@ -21,4 +21,5 @@ Il y a quelques captures d'écran faisant office de tutoriel dans un dossier sou
 
 :::note
 Vous devez disposer des droits d'accès à Google Drive.
+https://drive.google.com/drive/folders/1-o4Ij2kuC6_H10cd6Vra9iNtpEdmouMW?usp=sharing
 :::
